@@ -1,0 +1,223 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 100px 40px;
+  align-items: center;
+}
+
+.main__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.main__header-avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.main__header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main__header-text-pretitle {
+  color: white;
+  font-family: "agbalumo";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  height: 7px;
+  pointer-events: none;
+}
+
+.main__header-text-title {
+  color: #24e1ff;
+  font-family: "agbalumo";
+  font-size: 70px;
+  font-weight: 400;
+  margin: 0;
+  pointer-events: none;
+}
+
+.main__header-text-description {
+  color: white;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 500;
+  margin: 7px 0 0;
+  pointer-events: none;
+}
+
+.main__description {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0 0;
+}
+
+.main__description-title {
+  color: white;
+  font-family: "Inter";
+  font-size: 37px;
+  font-weight: 500;
+  margin: 0;
+  pointer-events: none;
+}
+
+.main__description-subcont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.main__description-subtitle {
+  color: white;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  pointer-events: none;
+}
+
+.main__description-ti {
+  color: yellow;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  pointer-events: none;
+}
+
+.main__description-paragraph {
+  color: white;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 500px;
+  margin-top: 40px;
+  pointer-events: none;
+}
+
+.main__projects {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+  gap: 20px;
+}
+
+.main__projects-title {
+  color: white;
+  font-family: "Inter";
+  font-size: 25px;
+  margin: 100px 0 0;
+  pointer-events: none;
+}
+
+.main__projects-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.main__projects-around {
+  border-radius: 7px;
+  background-color: #141a70;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  max-width: 280px;
+  border-style: solid;
+  transition: all 400ms ease-out;
+}
+
+.main__projects-around:hover {
+  border-color: mediumpurple;
+  background-color: #1a228a;
+}
+
+.main__projects-around-icon {
+  color: #24e1ff;
+  width: 120px;
+  height: 120px;
+}
+
+.main__projects-around-text {
+  color: white;
+  font-size: 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0;
+}
+
+.main__projects-mistral {
+  border-radius: 7px;
+  background-color: #141a70;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  max-width: 280px;
+  border-style: solid;
+  transition: all 400ms ease-out;
+}
+
+.main__projects-mistral:hover {
+  border-color: mediumpurple;
+  background-color: #1a228a;
+}
+
+.main__projects-mistral-icon {
+  color: #24e1ff;
+  width: 120px;
+  height: 120px;
+}
+
+.main__projects-mistral-text {
+  color: white;
+  font-size: 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0;
+}
+
+.main__projects-design {
+  border-radius: 7px;
+  background-color: #141a70;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  max-width: 280px;
+  border-style: solid;
+  transition: all 400ms ease-out;
+}
+
+.main__projects-design:hover {
+  border-color: mediumpurple;
+  background-color: #1a228a;
+}
+
+.main__project-design-icon {
+  color: #24e1ff;
+  width: 120px;
+  height: 120px;
+}
+
+.main__projects-design-text {
+  color: white;
+  font-size: 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0;
+}
