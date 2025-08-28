@@ -7,6 +7,18 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 630px) {
+  .footer {
+    padding: 0 40px 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 0 25px 50px;
+  }
+}
+
 .footer__title {
   color: white;
   font-family: "Inter";
@@ -20,9 +32,27 @@
   font-family: "Inter";
   font-size: 13px;
   font-weight: 400;
-  max-width: 500px;
+  max-width: 480px;
   margin: 0;
   pointer-events: none;
+}
+
+@media screen and (max-width: 630px) {
+  .footer__text {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .footer__text {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__text {
+    max-width: 260px;
+  }
 }
 
 .footer__email {

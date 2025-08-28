@@ -7,7 +7,7 @@ export default function Footer() {
       <h3 className="footer__title">Contacto</h3>
       <p className="footer__text">
         Actualmente busco unirme a un equipo de programación para aportar mis
-        habilidades, crecer como profesionales y consolidarme en el mundo de
+        habilidades, crecer como profesional y consolidarme en el mundo de
         Tecnología de la Información.
       </p>
       <p className="footer__email">carlos.arte91@gmail.com</p>
